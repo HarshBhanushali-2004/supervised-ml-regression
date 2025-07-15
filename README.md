@@ -10,22 +10,35 @@ This repository contains learning projects and code from the **Supervised Machin
 
 ---
 
-## 🏠 House Price Prediction (Single Parameter)
+## 🏠 House Price Prediction Projects
 
-As part of the course, I implemented a **single-parameter linear regression model** to predict house prices.
+As part of the course, I implemented linear regression models for predicting house prices, both with a single feature and with multiple features.
 
-### Description
+### 🔹 Single-Parameter Linear Regression
 
-- **Objective:** Predict house price based on a single feature (e.g., size in square feet).
+- **Notebook:** [`House Price 1 parameter.ipynb`](./House%20Price%201%20parameter.ipynb)
+- **Objective:** Predict house price based on a single feature (e.g. size in square feet).
 - **Algorithm:** Linear Regression
 - **Tools:** Python, Jupyter Notebook, NumPy, Matplotlib
+
+---
+
+### 🔹 Multi-Feature Linear Regression
+
+- **Notebook:** [`House Price multi features.ipynb`](./House%20Price%20multi%20features.ipynb)
+- **Objective:** Predict house price based on multiple features (e.g. size, number of bedrooms, number of floors, age, etc.).
+- **Algorithm:** Multivariate Linear Regression
+- **Tools:** Python, Jupyter Notebook, NumPy, Matplotlib, scikit-learn
 
 ---
 
 ## 📂 Repository Contents
 
 - [`House Price 1 parameter.ipynb`](./House%20Price%201%20parameter.ipynb)  
-  Jupyter notebook implementing the single-parameter linear regression model.
+  Jupyter notebook for single-variable linear regression.
+
+- [`House Price multi features.ipynb`](./House%20Price%20multi%20features.ipynb)  
+  Jupyter notebook for multi-variable linear regression.
 
 ---
 
@@ -43,10 +56,9 @@ As part of the course, I implemented a **single-parameter linear regression mode
     ```bash
     jupyter notebook
     ```
-4. Open and run the notebook cells in:
-    ```
-    House Price 1 parameter.ipynb
-    ```
+4. Open and run either notebook:
+    - **Single Parameter:** `House Price 1 parameter.ipynb`
+    - **Multi Features:** `House Price multi features.ipynb`
 
 ---
 
